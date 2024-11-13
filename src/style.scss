@@ -20,6 +20,10 @@ main{
     flex-direction: column;
     justify-content: space-around;
     height: 70vh;
+    background-color: #ecafff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1{
@@ -55,4 +59,8 @@ button{
 
 button:hover{
     opacity: 0.9;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
 }
